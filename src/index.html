@@ -22,7 +22,7 @@
             <a href="+7 (495) 42-251-31" class="navbar__phone">+7 (495) 42-251-31</a>
           </div>
           <!-- /.navbar__contacts -->
-          <button class="button navbar__button">Перезвоните мне</button>
+          <button class="button navbar__button" id="button">Перезвоните мне</button>
         </div>
         <!-- /.navbar__info -->
       </div>
@@ -75,6 +75,48 @@
       <!-- /.container -->
     </section>
     <!-- /.hero -->
+    <section class="offer section">
+      <div class="container">
+        <div class="offer-block">
+          <div class="h2 section-title offer__title">
+            Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!
+          </div>
+          <!-- /.h2 section-title -->
+          <span class="section-subtitle offer__subtitle">
+            Оставьте заявку на разработку бесплатного дизайн-проекта!
+          </span>
+          <!-- /.section-subtitle -->
+          <form action="#" class="form offer__form">
+            <input type="text" class="input offer__input" placeholder="Ваше имя">
+            <input type="tel" class="input offer__input" placeholder="Ваш телефон">
+            <button class="button offer__button">
+              Получить бесплатный дизайн-проект
+            </button>
+            <div class="offer-phone">
+              <div class="offer-phone__text">Наш менеджер перезвонит Вам в течение 60 секунд
+                </div>
+              <div class="offer-phone__text">
+                <div class="offer-phone__my">или перезвоните нам сами</div>
+                <div class="offer-phone__tel">
+                  <a href="+7 (495) 42-251-31">+7 (495) 42-251-31</a>
+                </div>
+              </div>
+            </div>
+          </form>
+          </div>
+        </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.offer -->
   </main>
+<div class="modal" id="modal">
+  <div class="modal-dialog">
+    <button class="modal-dialog__close" id="close">&times;</button>
+    <h4 class="modal-dialog__title">Всплывающее окно</h4>
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<script src="js/main.js"></script>
 </body>
 </html>
