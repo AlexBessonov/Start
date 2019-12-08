@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/slick.css">
 </head>
 <body>
@@ -141,7 +142,7 @@
         <span class="section-subtitle price__subtitle">Прайс на наши услуги</span>
         <!-- /.section-subtitle price__subtitle -->
         <div class="cards">
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.2s">
             <div class="card__image">
               <img class="card-price__image" src="img/price/price-1.jpg" alt="">
             </div>
@@ -155,7 +156,7 @@
             <!-- /.card__text -->
           </div>
           <!-- /.card -->
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.4s">
             <div class="card__image">
               <img class="card-price__image" src="img/price/price-2.jpg" alt="">
             </div>
@@ -169,7 +170,7 @@
             <!-- /.card__text -->
           </div>
           <!-- /.card -->
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.6s">
             <div class="card__image">
               <img class="card-price__image" src="img/price/price-3.jpg" alt="">
             </div>
@@ -183,7 +184,7 @@
             <!-- /.card__text -->
           </div>
           <!-- /.card -->
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="0.8s">
             <div class="card__image">
               <img class="card-price__image" src="img/price/price-4.jpg" alt="">
             </div>
@@ -197,7 +198,7 @@
             <!-- /.card__text -->
           </div>
           <!-- /.card -->
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="1s">
             <div class="card__image">
               <img class="card-price__image" src="img/price/price-5.jpg" alt="">
             </div>
@@ -211,13 +212,13 @@
             <!-- /.card__text -->
           </div>
           <!-- /.card -->
-          <div class="card price__card">
+          <div class="card price__card wow fadeInUp" data-wow-delay="1.2s">
             <div class="card__image">
               <img class="card-price__image" src="img/price/price-6.jpg" alt="">
             </div>
             <!-- /.card__image -->
             <div class="card__text">
-              <h4 class="card__title">Ремонт дач и коттеджейУзнать цены</h4>
+              <h4 class="card__title">Ремонт дач и коттеджей</h4>
               <!-- /.card__title -->
               <a href="#" class="card__link">Узнать цены</a>
               <!-- /.card__link -->
@@ -250,7 +251,11 @@
 </script>
 <script src="js/modal.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script>
+  // Инициализация WOW.js
+  new WOW().init();
+  // Подключение слайдера
   $(document).ready(function(){
     $('.slider').slick({
       infinite: true,
