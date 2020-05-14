@@ -1,3 +1,3 @@
-Этот проект можно открыть по ссылке:
+Проект можно посмотреть по ссылке:
 
-https://alexbessonov.github.io/start/
+https://xanderbessonov.github.io/start/
